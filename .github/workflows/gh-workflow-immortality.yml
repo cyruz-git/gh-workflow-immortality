@@ -18,7 +18,7 @@ jobs:
         uses: PhrozenByte/gh-workflow-immortality@v1
         with:
           secret: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-          repos: >
+          repos: |
                  cyruz-git/gh-workflow-immortality
                  cyruz-git/cloudflare-gateway-pihole-scripts
                  cyruz-git/caddy-docker-custom
